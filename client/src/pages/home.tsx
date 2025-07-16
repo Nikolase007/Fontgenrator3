@@ -179,6 +179,23 @@ export default function Home() {
           </Card>
         </section>
       </main>
+        {/* Article Content Section - Placeholder for your article */}
+        <section className="mt-16 mb-16">
+          <div className="bg-white rounded-lg shadow-sm p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+              Font Generator Guide
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-600">
+              <p className="text-center text-xl mb-8">
+                Please provide your article content in plain text format, and I'll integrate it here with proper formatting.
+              </p>
+              <p className="text-center">
+                This section is ready to display your article content with appropriate headings, paragraphs, and styling.
+              </p>
+            </div>
+          </div>
+        </section>
+
 
       <Footer />
     </div>

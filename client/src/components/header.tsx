@@ -10,6 +10,13 @@ export function Header() {
     { href: '/', label: 'Home' },
     { href: '/random-font', label: 'Random Font' },
     { href: '/compare-fonts', label: 'Compare Fonts' },
+    { href: '/fancy-fonts', label: 'Fancy Fonts' },
+    { href: '/versatile-fonts', label: 'Versatile Fonts' },
+    { href: '/cool-fonts', label: 'Cool Fonts' },
+    { href: '/lined-fonts', label: 'Lined Fonts' },
+    { href: '/cute-fonts', label: 'Cute Fonts' },
+    { href: '/bold-fonts', label: 'Bold Fonts' },
+    { href: '/italic-fonts', label: 'Italic Fonts' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' }
   ];

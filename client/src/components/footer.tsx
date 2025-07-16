@@ -2,19 +2,25 @@ import { Link } from 'wouter';
 
 export function Footer() {
   const fontCategories = [
-    { name: 'Fancy Fonts', href: '#fancy' },
-    { name: 'Versatile Fonts', href: '#versatile' },
-    { name: 'Cool Fonts', href: '#cool' },
-    { name: 'Lined Fonts', href: '#lined' },
-    { name: 'Gaming Fonts', href: '#gaming' },
-    { name: 'Decorated Fonts', href: '#decorated' },
-    { name: 'Mixed Random Styles', href: '#mixed' }
+    { name: 'Fancy Fonts', href: '/fancy-fonts' },
+    { name: 'Versatile Fonts', href: '/versatile-fonts' },
+    { name: 'Cool Fonts', href: '/cool-fonts' },
+    { name: 'Lined Fonts', href: '/lined-fonts' },
+    { name: 'Gaming Fonts', href: '/gaming-fonts' },
+    { name: 'Decorated Fonts', href: '/decorated-fonts' },
+    { name: 'Mixed Random Styles', href: '/mixed-random-styles' },
+    { name: 'Cute Fonts', href: '/cute-fonts' },
+    { name: 'Bold Fonts', href: '/bold-fonts' },
+    { name: 'Italic Fonts', href: '/italic-fonts' }
   ];
 
   const quickLinks = [
     { name: 'Home', href: '/' },
     { name: 'Random Font', href: '/random-font' },
     { name: 'Compare Fonts', href: '/compare-fonts' },
+    { name: 'Fancy Fonts', href: '/fancy-fonts' },
+    { name: 'Cool Fonts', href: '/cool-fonts' },
+    { name: 'Cute Fonts', href: '/cute-fonts' },
     { name: 'About', href: '/about' }
   ];
 
